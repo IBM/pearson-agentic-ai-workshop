@@ -18,12 +18,12 @@ This 4-day in-person workshop will enable participants to:
 | 20 Min | POV on watsonx.ai platform, IBM’s Foundation Models |
 | 30 Min | Watsonx.ai setup |
 | 20 Min | Prompt Engineering & GA-ed watsonx.ai walk-thru |
-| 20 Min | **Prompt Lab Hands On** 🔗 [Lab 1](watsonx.ai/lab-01-prompt-engineering) |
+| 20 Min | **Prompt Lab Hands On** 🔗 [Lab 1](watsonx.ai/lab-01-prompt-engineering%20new) |
 | *20 Min* | *Break* |
-| 60 Min | **Advanced Prompt Engineering** 🔗 [Lab 1](watsonx.ai/lab-01-prompt-engineering) |
+| 60 Min | **Advanced Prompt Engineering** 🔗 [Lab 2](watsonx.ai/lab-02-advanced-prompt-engineering) |
 | *60 Min* | *Break* |
 | 10 Min | RAG Overview & Architecture Pattern |
-| 90 Min | **RAG Lab (WA, Milvus/VectorDB)** 🔗 [Lab 4](watsonx.ai/lab-04-agentic-rag-milvus) |
+| 90 Min | **RAG Lab (WA, Milvus/VectorDB)** 🔗 [Lab 3](watsonx.ai/lab-04-agentic-rag-milvus) |
 | 30 Min | Migration Activities |
 
 ### Day 2 – Agentic AI & Orchestrate (6 Hours)
@@ -34,16 +34,16 @@ This 4-day in-person workshop will enable participants to:
 | *20 Min* | *Break* |
 | 60 Min | Environment Setup |
 | *60 Min* | *Break* |
-| 90 Min | **Lab 1: Ask HR** 🔗 [Lab Link](https://github.com/shancs09/pearson-agenti-ai-workshop/tree/main/agentic-ai/usecases/ask-hr)) |
+| 90 Min | **Lab 1: Ask HR** 🔗 [Lab 1](agentic-ai/usecases/ask-hr)) |
 | 40 Min | Migration Activities |
 
 ### Day 3 – Watsonx Orchestrate & Watsonx Governance (6 Hours)
 | Time | Activity / Lab |
 |------|----------------|
 | 15 Min | Recap on Watsonx.Orchestrate |
-| 75 Min | **Lab 2: Business Automation - Competitive Insights** 🔗 [Lab Link](#add-link) |
+| 75 Min | **Lab 2: Business Automation - Competitive Insights** 🔗 [Lab 2](agentic-ai/usecases/business-automation) |
 | *20 Min* | *Break* |
-| 60 Min | **Lab 3: Banking Financial Research Analyst** 🔗 [Lab Link](#add-link) |
+| 60 Min | **Lab 3: Banking Financial Research Analyst** 🔗 [Lab 3](agentic-ai/usecases/banking-financial-research-analyst) |
 | 10 Min | Feedback Session |
 | *60 Min* | *Break* |
 | 20 Min | Introduction to AI Governance |
@@ -57,10 +57,10 @@ This 4-day in-person workshop will enable participants to:
 |------|----------------|
 | 20 Min | Continuation AI Governance |
 | 30 Min | Part 4: Automatic Evaluation |
-| 40 Min | **Lab 1: Guardrails and monitoring** 🔗 [Lab Link](#add-link) |
+| 40 Min | **Lab 1: Guardrails and monitoring** 🔗 [Lab 1](governance/labs/monitoring-and-guardrails) |
 | *20 Min* | *Break* |
-| 60 Min | **Lab 1: Guardrails and monitoring** 🔗 [Lab Link](#add-link) |
+| 60 Min | **Continuation on Lab 1: Guardrails and monitoring** 🔗 [Lab 2](governance/labs/monitoring-and-guardrails) |
 | *60 Min* | *Break* |
-| 90 Min | **Lab 2: Risk and compliance** 🔗 [Lab Link](#add-link) |
+| 90 Min | **Lab 2: Risk and compliance** 🔗 [Lab 2](governance/labs/risk-and-compliance) |
 | 30 Min | Migration Activities |
 | 10 Min | Feedback session |
