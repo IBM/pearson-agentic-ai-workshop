@@ -1,4 +1,4 @@
-# Agentic AI & Watsonx Workshop Schedule
+# Watsonx AI, Agentic AI & Governance Workshop Schedule
 
 ## Course Overview
 This 4-day in-person workshop will enable participants to:  
