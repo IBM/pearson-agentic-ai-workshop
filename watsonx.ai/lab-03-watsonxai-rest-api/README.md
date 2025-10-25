@@ -1,4 +1,4 @@
- Lab 4: IBM's GenAI REST API
+ Lab 3: IBM's GenAI REST API
 
 ### Introduction : The ibm-watsonx-ai library
 
