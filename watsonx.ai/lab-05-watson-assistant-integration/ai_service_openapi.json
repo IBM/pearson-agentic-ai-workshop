@@ -1,0 +1,199 @@
+{
+  "openapi": "3.0.3",
+  "info": {
+    "title": "Watsonx.ai Deployment Scoring API",
+    "version": "1.0.0",
+    "description": "Minimal OpenAPI spec for calling a custom AI deployment via IBM Watson Machine Learning."
+  },
+  "servers": [
+  {
+    "url": "https://{instance}.ml.cloud.ibm.com",
+    "variables": {
+      "instance": {
+        "default": "us-south",
+        "description": "IBM Cloud instance subdomain"
+      }
+    }
+  }
+],
+  "security": [
+    {
+      "oauth2": []
+    }
+  ],
+  "paths": {
+    "/ml/v4/deployments/{deployment_id}/ai_service": {
+      "post": {
+        "summary": "Send input messages for AI scoring",
+        "description": "Invoke a deployed AI model in Watson Machine Learning with a message-based payload. Requires a valid IAM access token generated from your API key.",
+        "operationId": "scoreDeployment",
+        "parameters": [
+          {
+            "name": "deployment_id",
+            "in": "path",
+            "required": true,
+            "description": "Unique identifier for the Watson Machine Learning deployment.",
+            "schema": {
+              "type": "string",
+              "example": "5e2d3416-5662-4518-91e9-91335d24720d"
+            }
+          },
+          {
+            "name": "version",
+            "in": "query",
+            "required": true,
+            "description": "API version (e.g., `2021-05-01`).",
+            "schema": {
+              "type": "string",
+              "example": "2021-05-01"
+            }
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ScoringRequest"
+              },
+              "example": {
+                "messages": [
+                  {
+                    "role": "user",
+                    "content": "Summarize this document for me."
+                  }
+                ]
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Successful scoring response.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ScoringResponse"
+                },
+                "example": {
+                  "results": [
+                    {
+                      "role": "assistant",
+                      "content": "Here’s a concise summary of the document..."
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized — Invalid or missing API key."
+          },
+          "500": {
+            "description": "Internal server error."
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "ScoringRequest": {
+        "type": "object",
+        "properties": {
+          "messages": {
+            "type": "array",
+            "description": "Array of messages to send to the deployed model.",
+            "items": {
+              "type": "object",
+              "properties": {
+                "role": {
+                  "type": "string",
+                  "example": "user"
+                },
+                "content": {
+                  "type": "string",
+                  "example": "Explain quantum computing in simple terms."
+                }
+              }
+            }
+          }
+        },
+        "required": ["messages"]
+      },
+      "ScoringResponse": {
+      "type": "object",
+      "properties": {
+        "choices": {
+          "type": "array",
+          "description": "Array of choice objects returned by the model.",
+          "items": {
+            "type": "object",
+            "properties": {
+              "index": { "type": "integer", "example": 0 },
+              "finish_reason": { "type": "string", "example": "stop" },
+              "message": {
+                "type": "object",
+                "properties": {
+                  "role": { "type": "string", "example": "assistant" },
+                  "content": { "type": "string", "example": "Here’s a concise summary..." }
+                },
+                "required": ["role", "content"]
+              }
+            },
+            "required": ["index", "finish_reason", "message"]
+          }
+        },
+        "created": { "type": "integer", "example": 1761386550 },
+        "created_at": { "type": "string", "format": "date-time", "example": "2025-10-25T10:02:34.886Z" },
+        "id": { "type": "string", "example": "chatcmpl-f8fdb42d-7110-49f5-9e6f-48fcee99e9a9" },
+        "model": { "type": "string", "example": "meta-llama/llama-3-3-70b-instruct" },
+        "model_id": { "type": "string", "example": "meta-llama/llama-3-3-70b-instruct" },
+        "model_version": { "type": "string", "example": "3.3.0" },
+        "object": { "type": "string", "example": "chat.completion" },
+        "system": {
+          "type": "object",
+          "properties": {
+            "warnings": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "id": { "type": "string", "example": "disclaimer_warning" },
+                  "message": { "type": "string", "example": "This model is a Non-IBM Product..." },
+                  "more_info": { "type": "string", "example": "https://dataplatform.cloud.ibm.com/docs/..." }
+                },
+                "required": ["id", "message", "more_info"]
+              }
+            }
+          }
+        },
+        "usage": {
+          "type": "object",
+          "properties": {
+            "completion_tokens": { "type": "integer", "example": 216 },
+            "prompt_tokens": { "type": "integer", "example": 279 },
+            "total_tokens": { "type": "integer", "example": 495 }
+          },
+          "required": ["completion_tokens", "prompt_tokens", "total_tokens"]
+        }
+      },
+      "required": ["choices", "created", "created_at", "id", "model", "object"]
+    }
+    },
+    "securitySchemes": {
+      "oauth2": {
+        "type": "oauth2",
+        "flows": {
+          "x-apikey": {
+            "tokenUrl": "https://iam.cloud.ibm.com/identity/token",
+            "grantType": "urn:ibm:params:oauth:grant-type:apikey",
+            "secretKeys": ["apikey"],
+            "paramKeys": [],
+            "scopes": {}
+          }
+        }
+      }
+    }
+  }
+}
