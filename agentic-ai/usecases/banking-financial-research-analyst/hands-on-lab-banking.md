@@ -234,7 +234,7 @@ watsonx Orchestrate supports multiple approaches to adding tools to agents as ex
 
 Additionally, you can use the watsonx Orchestrate [Agentic Development Kit (ADK)](https://developer.watson-orchestrate.ibm.com/) to develop and upload Python and OpenAPI tools to a specific watsonx Orchestrate instance which you can then add to the agents.
 
-For purposes of the Financial API Agent, you will use the **Import** option to import an OpenAPI specification and define which operations to import as tools. You will need a **financial_api_openapi.json** file which will be provided by your instructor. 
+For purposes of the Financial API Agent, you will use the **Import** option to import an OpenAPI specification and define which operations to import as tools. You will need [financial_api_openapi.json file](openapi_spec_files/financial_api_openapi.json) which will be provided by your instructor. 
 
 On the *Add a new tool* pop-up, select **Import from file** tile (annonated with red rectangle).
 
