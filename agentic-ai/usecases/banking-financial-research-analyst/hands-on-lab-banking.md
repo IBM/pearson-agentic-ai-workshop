@@ -79,7 +79,7 @@ In this section, you will go through the process of creating an AI agent in wats
 7- The Manage agents page will initially be blank since no agents have been created yet. As you create more and more AI agents that can reason and act, the Manage agents page will be populated with those agents. Note the analytics captured at the top of the page including **Total messages**, **Failed messages**, and **Latency average** (annonated with red rectangle). Also, note the **Discover** button (annonated with red oval) which you can click to explore and discover the [catalog of pre-built agents and tools in watsonx Orchestrate](https://www.ibm.com/docs/en/watsonx/watson-orchestrate/base?topic=discovering-catalog). Click **Create agent** button (annotated with red arrow) to start building your first agent.
 ![wxo create agent](images/wxo-create-agent-manage-agents-empty.png) 
 
-8- On the Create an agent page, select **Create from scratch** tile (annotated with red rectangle), provide a **Name** and a **Description** for the agent and click **Create** (annotated with red arrow).
+8- On the Create an agent page, select **Create from scratch** tile (annotated with red rectangle), provide a unique **Name**, e.g. `Financial Analyst Agent - <yourname>` and a **Description** for the agent and click **Create** (annotated with red arrow). (Note: In the screenshots the agent is named Financial Analyst Agent. You will need to name it uniquely so that you can easily identify your agent among the list of agents created by others as well)
 
 Name: 
 ```
