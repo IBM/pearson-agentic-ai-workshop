@@ -10,6 +10,8 @@ In this bootcamp, you will build and deploy an Agentic AI application prototype 
 
 🚀 You'll learn how to deploy an Agentic AI application.
 
+Presentation decks:
+
 [AI Agents - General Introduction](https://ibm.ent.box.com/file/2028221005604)
 
 [watsonx Orchestrate Overview](https://ibm.ent.box.com/file/2015317187758)
