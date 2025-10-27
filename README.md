@@ -49,11 +49,11 @@ This 4-day in-person workshop will enable participants to:
 | 10 Min | Feedback Session | Murali
 | *60 Min* | *Break* |
 | 20 Min | Introduction to AI Governance | Shan
-| 20 Min | **Governance Architecture - MultiCloud Solution/LLM** | Shan
+| 30 Min | **Governance Architecture - MultiCloud Solution/LLM** | Shan
 | 20 Min | Part 1: Prompt Injection | Shan
 | 20 Min | Part 2: Hallucinations (metrics theory and practice) | Shan
 | 20 Min | Part 3: Drift (theory and practice) | Shan
-| 30 Min | Environment Setup | Shan
+| 10 Min | Feedback session | 
 
 ### Day 4 – Watsonx Governance (6 Hours)
 | Time | Activity / Lab | Speaker
