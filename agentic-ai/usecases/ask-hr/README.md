@@ -72,4 +72,4 @@ https://github.ibm.com/skol/agentic-ai-client-bootcamp/assets/449286/ae5718a9-cc
 
 ## 📄 Hands-on step-by-step lab
 
-Please find the step-by-step instructions [here](https://github.com/shancs09/pearson-agenti-ai-workshop/blob/main/agentic-ai/usecases/ask-hr/assets/hands-on-lab-askHR.md) on how you can implement this use case.
+Please find the step-by-step instructions [here](https://github.com/IBM/pearson-agentic-ai-workshop/blob/main/agentic-ai/usecases/ask-hr/assets/hands-on-lab-askHR.md) on how you can implement this use case.
