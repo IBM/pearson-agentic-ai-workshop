@@ -1,6 +1,6 @@
  # 🚨 Monitoring, evaluation, and guardrails with watsonx.governance
 
-<img src="./assets/banner_watsonx" width=75% height=75%> 
+<img src="./assets/banner_watsonx.png" width=75% height=75%> 
 
 ## 🤔 The Problem
 
