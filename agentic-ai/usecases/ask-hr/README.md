@@ -59,7 +59,8 @@ HR Agent retrieves relevant information from Company Benefits Knowledge document
 ## 🎥 Demo
 
 
-[askHR_demo_latest.mp4](https://github.com/IBM/pearson-agentic-ai-workshop/blob/main/agentic-ai/usecases/ask-hr/ashHR_demo_new_version.mp4)
+<video src="ashHR_demo_new_version.mp4" controls="controls" style="max-width: 730px;">
+</video>
 
 
 
