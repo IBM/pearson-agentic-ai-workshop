@@ -20,10 +20,11 @@ This 4-day in-person workshop will enable participants to:
 | 20 Min | Prompt Engineering & GA-ed watsonx.ai walk-thru |
 | 20 Min | **Prompt Lab Hands On** 🔗 [Lab 1](watsonx.ai/lab-01-prompt-engineering%20new) |
 | *20 Min* | *Break* |
-| 60 Min | **Advanced Prompt Engineering** 🔗 [Lab 2](watsonx.ai/lab-02-advanced-prompt-engineering) |
+| 20 Min | **watsonx-ai SDK** 🔗 [Lab 2](watsonx.ai/lab-03-watsonxai-rest-api) |
+| 40 Min | **Advanced Prompt Engineering** 🔗 [Lab 3](watsonx.ai/lab-02-advanced-prompt-engineering) |
 | *60 Min* | *Break* |
 | 10 Min | RAG Overview & Architecture Pattern |
-| 90 Min | **RAG Lab (WA, Milvus/VectorDB)** 🔗 [Lab 3](watsonx.ai/lab-04-agentic-rag-milvus) |
+| 90 Min | **RAG Lab (WA, Milvus/VectorDB)** 🔗 [Lab 4](watsonx.ai/lab-04-agentic-rag-milvus) |
 | 30 Min | Migration Activities |
 
 ### Day 2 – Agentic AI & Orchestrate (6 Hours)
