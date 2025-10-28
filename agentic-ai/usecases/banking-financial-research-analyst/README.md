@@ -1,6 +1,5 @@
 # 🥇 Financial Analyst Agent
 
-<img width="900" alt="image" src="images/blue_aurum_img.png">
 
 ## 🤔 The Problem
 
