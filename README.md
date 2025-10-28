@@ -32,12 +32,13 @@ This 4-day in-person workshop will enable participants to:
 | Time | Activity / Lab | Speaker
 |------|----------------|---------|
 | 30 Min | Agentic AI Overview | Shan
-| 60 Min | Watsonx.Orchestrate & ADK Overview | Murali
+| 45 Min | watsonx Orchestrate Overview | Murali
+| 15 Min | watsonx Orchestrate Dashboard: A Quick Tour | Murali
 | *20 Min* | *Break* |
 | 60 Min | **Agentic RAG & Agent Lab** | Shan
 | *60 Min* | *Break* |
 | 90 Min | **Lab 1: Ask HR** 🔗 [Lab 1](agentic-ai/usecases/ask-hr)) | Utkarsh
-| 40 Min | Migration Activities | Murali
+| 20 Min | ADK Overview | Murali
 
 ### Day 3 – Watsonx Orchestrate & Watsonx Governance (6 Hours)
 | Time | Activity / Lab | Speaker
