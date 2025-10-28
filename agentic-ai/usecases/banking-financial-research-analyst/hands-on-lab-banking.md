@@ -196,7 +196,7 @@ In this section, you will develop the Financial API Agent, one of the collaborat
 
 ![wxo create agent chatUI](images/wxo-create-agent.png) 
 
-14- On the Create an agent page, select **Create from scratch** tile , provide a **Name** and a **Description** for the agent and click **Create** (annotated with red arrow).
+14- On the Create an agent page, select **Create from scratch** tile , provide a unique **Name** , e.g. `Financial API Agent - <yourname>` and a **Description** for the agent and click **Create** (annotated with red arrow).(Note: In the screenshots the agent is named Financial API Agent. You will need to name it uniquely so that you can easily identify your agent among the list of agents created by others as well)
 
 Name: 
 ```
@@ -362,7 +362,7 @@ In this section, you will develop the **Web Search Agent**, another collaborator
 
 ![wxo landing page create agent](images/wxo-create-agent.png) 
 
-26- Repeat the steps you did earlier to create an agent from scratch and provide the following name and description for the web search agent. Click **Create** (annotated with red arrow).
+26- Repeat the steps you did earlier to create an agent from scratch and provide the unique name, e.g. `Web Search Agent - <yourname>` and description for the web search agent. Click **Create** (annotated with red arrow).(Note: In the screenshots the agent is named Web Search Agent. You will need to name it uniquely so that you can easily identify your agent among the list of agents created by others as well)
 
 Name: 
 ```
