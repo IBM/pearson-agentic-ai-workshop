@@ -42,16 +42,24 @@ The sales department of ABC Motor Corp, an automotive large player, when prepari
 
 ## Create a watsonx.ai Agent
 
-We will create a **Comparison Agent** in watsonx.ai's **Agent Lab** as part of this setup:  
+We will create a **Comparison Agent** in watsonx.ai's **Agent Lab** as part of this setup: 
 
-From the Home page of **Agent Lab**, click on **Build an AI agent to automate tasks**
+On IBM Cloud, Open watsonx.ai service and launch in watsonx.ai.
+![Launch watsonx.ai](assets/Launch_wx.png)
 
-![Home page](assets/agent_lab_home.png) 
+On watsonx home page, click `View all`. 
+![View all](assets/watsonx_view_all.png)
+
+Under `Work with models`, click on `Build an AI agent to automate tasks`.
+![Launch agent lab](assets/launch_agentlab.png)
 
 Let's start the **Comparison Agent**. 
 
 ### Comparison Agent  
-#### Setup  
+#### Setup
+
+> Expand `Setup`, if it is collapsed, to see name and description.
+
 1. **Name**: `Comparison Agent`
 2. **Description**: 
    ```
@@ -97,7 +105,7 @@ Once the agent is created, save and deploy:
 1. Select **Agent** and click **Save**
 ![Comparison Agent 2](assets/config_CA_4.png)
 1. Click on the **Deploy** button
-1. On the **Deploy as an AI service** page, you will be prompted to create a user api key. This will be used by **watsonx** to deploy your agent and is different from the **Cloud API key** created earlier. Click on **Create**. 
+1. On the **Deploy as an AI service** page (Create API Key if prompted. If not prompted skip API key creation steps below). This will be used by **watsonx** to deploy your agent and is different from the **Cloud API key** created earlier. Click on **Create**. 
 ![Comparison Agent 3](assets/image44.0.1.png)
 1. You'll be directed to another webpage. Click on **Create a key**.
 ![Comparison Agent 4](assets/image44.0.2.png)
@@ -204,8 +212,8 @@ In Orchestrate, we will create our main agent, as outlined below:
        >NOTE: If this isn't set, you will encounter the following error: `Authentication request failed because the expected Bearer token is missing from the request header`
     2. **API key**: Enter your IBM Cloud API key.
     3. **Service instance URL**: Enter the public streaming endpoint URL of the agent that we copied in [step 6 above](#integrating-watsonxais-agent-as-an-external-agent-in-watsonx-orchestrate).
-    4. **Display name**: `Comparison-Agent-v1`
-    5. **Description of agent capabilities**: 
+    4. **Display name**: `Comparison-Agent-<yourname>` (Provide a unique name to avoid conflict with other participant agent names.)
+    5. **Description of agent capabilities**:
        ```
        This agent is designed to search for competitive URLs of input product and compare the given compare the given data with additional information gathered from Google search results. Its task is to carefully analyze the input data, extract key insights, and identify both differences and similarities. The findings should be presented in a well-structured table format, making it easy to understand and compare the information at a glance.
        ```
