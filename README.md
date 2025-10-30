@@ -65,6 +65,7 @@ This 4-day in-person workshop will enable participants to:
 | 20 Min | Part 3: Drift (theory and practice) | Shan
 | 20 Min | Part 4: Automatic Evaluation | Shan
 | *20 Mi* | *Break* |
-| 90 Min | **Lab 2: Risk and compliance** 🔗 [Lab 2](governance/labs/risk-and-compliance) | Shan
+| 60 Min | **Lab 2: Risk and compliance** 🔗 [Lab 2](governance/labs/risk-and-compliance) | Shan
+| 30 Min | **Lab 3: Agent Evaluation** | Shan
 | 30 Min | Migration Activities | Murali,Srikanth,Shan
 | 10 Min | Feedback session | 
