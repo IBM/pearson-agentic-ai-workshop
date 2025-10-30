@@ -50,8 +50,8 @@ This 4-day in-person workshop will enable participants to:
 | 10 Min | Feedback Session | Murali
 | *60 Min* | *Break* |
 | 20 Min | Introduction to AI Governance | Shan
-| 30 Min | IBM Governance Framework for Multicloud Environments | Shan
-| 30 Min | IBM Governance :  MachineLearning Models | Shan
+| 30 Min | IBM Governance Framework : AWS & Multicloud Environments | Shan
+| 30 Min | IBM Governance Overview:  MachineLearning Models | Shan
 | 10 Min | Feedback session | 
 
 ### Day 4 – Watsonx Governance (6 Hours)
