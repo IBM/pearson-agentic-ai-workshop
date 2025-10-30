@@ -58,7 +58,7 @@ This 4-day in-person workshop will enable participants to:
 ### Day 4 – Watsonx Governance (6 Hours)
 | Time | Activity / Lab | Speaker
 |------|----------------|---------|
-| 5 Min  | Recap on AI Governance | Srikanth
+| 15 Min | IBM Governance Overview:  Foundation Models | Shan
 | 10 Min | **Lab 1: Guardrails and monitoring** 🔗 [Lab 1](governance/labs/monitoring-and-guardrails) | Srikanth
 | 10 Min | Part 1: Prompt Injection | Srikanth
 | 20 Min | Part 2: Hallucinations (metrics theory and practice) | Srikanth
