@@ -50,21 +50,20 @@ This 4-day in-person workshop will enable participants to:
 | 10 Min | Feedback Session | Murali
 | *60 Min* | *Break* |
 | 20 Min | Introduction to AI Governance | Shan
-| 30 Min | **Governance Architecture - MultiCloud Solution/LLM** | Shan
-| 20 Min | Part 1: Prompt Injection | Shan
-| 20 Min | Part 2: Hallucinations (metrics theory and practice) | Shan
-| 20 Min | Part 3: Drift (theory and practice) | Shan
+| 30 Min | IBM Governance Framework for Multicloud Environments | Shan
+| 30 Min | IBM Governance :  MachineLearning Models | Shan
 | 10 Min | Feedback session | 
 
 ### Day 4 – Watsonx Governance (6 Hours)
 | Time | Activity / Lab | Speaker
 |------|----------------|---------|
-| 20 Min | Continuation AI Governance | Shan
+| 5 Min  | Continuation AI Governance | Shan
+| 10 Min | **Lab 1: Guardrails and monitoring** 🔗 [Lab 1](governance/labs/monitoring-and-guardrails) | Srikanth
+| 20 Min | Part 1: Prompt Injection | Srikanth
+| 20 Min | Part 2: Hallucinations (metrics theory and practice) | Srikanth
+| 20 Min | Part 3: Drift (theory and practice) | Shan
 | 30 Min | Part 4: Automatic Evaluation | Shan
-| 40 Min | **Lab 1: Guardrails and monitoring** 🔗 [Lab 1](governance/labs/monitoring-and-guardrails) | Srikanth
 | *20 Mi* | *Break* |
-| 50 Min | **Continuation on Lab 1: Guardrails and monitoring** 🔗 [Lab 2](governance/labs/monitoring-and-guardrails) | Srikanth
-| *60 Min* | *Break* |
 | 90 Min | **Lab 2: Risk and compliance** 🔗 [Lab 2](governance/labs/risk-and-compliance) | Shan
-| 30 Min | Migration Activities | Shan
+| 30 Min | Migration Activities | Murali,Srikanth,Shan
 | 10 Min | Feedback session | 
