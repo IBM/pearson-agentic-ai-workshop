@@ -60,10 +60,10 @@ This 4-day in-person workshop will enable participants to:
 |------|----------------|---------|
 | 5 Min  | Continuation AI Governance | Shan
 | 10 Min | **Lab 1: Guardrails and monitoring** 🔗 [Lab 1](governance/labs/monitoring-and-guardrails) | Srikanth
-| 20 Min | Part 1: Prompt Injection | Srikanth
+| 10 Min | Part 1: Prompt Injection | Srikanth
 | 20 Min | Part 2: Hallucinations (metrics theory and practice) | Srikanth
 | 20 Min | Part 3: Drift (theory and practice) | Shan
-| 30 Min | Part 4: Automatic Evaluation | Shan
+| 20 Min | Part 4: Automatic Evaluation | Shan
 | *20 Mi* | *Break* |
 | 90 Min | **Lab 2: Risk and compliance** 🔗 [Lab 2](governance/labs/risk-and-compliance) | Shan
 | 30 Min | Migration Activities | Murali,Srikanth,Shan
