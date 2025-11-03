@@ -59,7 +59,7 @@ This 4-day in-person workshop will enable participants to:
 ### Day 4 – Watsonx Governance (6 Hours)
 | Time | Activity / Lab | Speaker
 |------|----------------|---------|
-| 30 Min | Recap on WatsonxOrchestrate Questions| Srikanth
+| 30 Min | Recap on WatsonxOrchestrate Questions| 
 |        | **Guardrails and monitoring** | Srikanth
 | 20 Min | Part 1: Prompt Injection 
 | 40 Min | Part 2: Hallucinations (metrics theory and practice) 🔗 [Lab 1](governance/labs/monitoring-and-guardrails/hallucinations.md) | Srikanth
