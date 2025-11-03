@@ -55,17 +55,20 @@ This 4-day in-person workshop will enable participants to:
 | 30 Min | IBM Governance Overview:  MachineLearning Models | Shan
 | 10 Min | Feedback session | 
 
+
 ### Day 4 – Watsonx Governance (6 Hours)
 | Time | Activity / Lab | Speaker
 |------|----------------|---------|
-| 15 Min | IBM Governance Overview:  Foundation Models | Shan
-| 10 Min | **Lab 1: Guardrails and monitoring** 🔗 [Lab 1](governance/labs/monitoring-and-guardrails) | Srikanth
-| 10 Min | Part 1: Prompt Injection | Srikanth
-| 20 Min | Part 2: Hallucinations (metrics theory and practice) | Srikanth
-| 20 Min | Part 3: Drift (theory and practice) | Srikanth
-| 20 Min | Part 4: Automatic Evaluation | Shan
+| 30 Min | Recap on WatsonxOrchestrate Questions| Srikanth
+|        | **Guardrails and monitoring** | Srikanth
+| 20 Min | Part 1: Prompt Injection 
+| 40 Min | Part 2: Hallucinations (metrics theory and practice) 🔗 [Lab 1](governance/labs/monitoring-and-guardrails/hallucinations.md) | Srikanth
 | *20 Mi* | *Break* |
-| 40 Min | **Lab 2: Risk and compliance** 🔗 [Lab 2](governance/labs/risk-and-compliance) | Shan
-| 20 Min | **Lab 3: Agent Evaluation** | Shan(TBD)
-| 30 Min | Migration Activities | Murali,Srikanth,Shan
+| 60 Min | Part 3: Drift (theory and practice) 🔗 [Lab 2](governance/labs/monitoring-and-guardrails/drift_monitoring.md) | Srikanth
+| *60 Min* | *Break* |
+| 20 Min | **Overview: Governing assets in AI use cases**  | Shan
+| 40 Min | **Evaluation Studio** : Automatic Evaluation 🔗 [Lab 3](governance/labs/monitoring-and-guardrails/automatic-eval.md) | Shan
+| 20 Min | **Demo**: Monitoring agent analytics & Evaluating agent 🔗[Demo](https://www.ibm.com/docs/en/watsonx/watson-orchestrate/base?topic=agents-evaluating-draft-agent) | Shan
+| 20 Min | **Demo**: Managing AI Risk and Compliance 🔗[Demo](governance/labs/risk-and-compliance) | Shan
+| 30 Min | Migration Activities | 
 | 10 Min | Feedback session | 
